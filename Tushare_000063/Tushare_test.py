@@ -1,7 +1,7 @@
 import os
 import tushare as ts
 
-token = os.getenv('TUSHARE_TOKEN')
+token = os.getenv('2b23d44c2c1a1ee619d2f65f3c016e9956c22ee78915cde683084bea')
 ts.set_token(token)
 pro = ts.pro_api()
 
